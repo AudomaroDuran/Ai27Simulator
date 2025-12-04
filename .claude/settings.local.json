@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx claude-code-templates@latest --agent=expert-advisors/documentation-expert --yes)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(npx claude-code-templates@latest --agent=game-development/unreal-engine-developer --yes)",
+      "Bash(\"C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat\" ai27SimulatorEditor Win64 Development -Project=\"F:/Ai27/UEProjects/Ai27SimulatorWorkspace/ai27Simulator/ai27Simulator.uproject\" -WaitMutex -FromMsBuild)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
